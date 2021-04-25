@@ -58,7 +58,7 @@ font-3 = Font Awesome 5 Free Solid:pixelsize=12;2
 
 
 
-modules-left = bspwm i3
+modules-left = i3
 modules-center = mpd
 modules-right = filesystem xbacklight xkeyboard cpu memory wlan eth battery temperature date
 
@@ -180,7 +180,7 @@ icon-play = 
 icon-pause = 
 icon-next = 
 
-label-song-maxlen = 25
+label-song-maxlen = 50
 label-song-ellipsis = true
 
 [module/xbacklight]
