@@ -5,7 +5,7 @@ echo $layout
 
 if [ $layout = 'us' ]
 then
-	setxkbmap sk
+	setxkbmap sk -variant qwerty
 else
 	setxkbmap us
 fi
