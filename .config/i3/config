@@ -40,6 +40,13 @@ bindsym $mod+Down exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% 
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# xbacklight display brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+
+
+
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -72,7 +79,9 @@ bindsym $mod+t exec --no-startup-id toggle_keyboard tt
 #ncmpcpp
 bindsym $mod+p exec --no-startup-id mpc toggle
 bindsym $mod+m exec --no-startup-id mpc next
+bindsym XF86AudioNext exec --no-startup-id mpc next
 bindsym $mod+n exec --no-startup-id mpc prev
+bindsym XF86AudioPrev exec --no-startup-id mpc prev
 
 
 # change focus
