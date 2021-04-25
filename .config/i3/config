@@ -62,6 +62,11 @@ bindsym $mod+F2 exec brave
 bindsym $mod+F3 exec pcmanfm
 bindsym --release Print exec --no-startup-id scrot && notify-send "Screenshot saved!"
 bindsym --release Shift+Print exec --no-startup-id scrot -s  && notify-send "Screenshot saved!"
+
+
+
+#toggle keyboard layout
+bindsym $mod+t exec --no-startup-id toggle_keyboard tt
  
 
 #ncmpcpp
