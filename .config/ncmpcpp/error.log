@@ -2,3 +2,14 @@ TagLib: Could not open file /home/valer/Music/Down to Hell - Nemŕtva nevesta-xM
 TagLib: Could not open file /home/valer/Music/Down to Hell - Nemŕtva nevesta-xMOC0TNAfEY.mp3
 TagLib: Could not open file /home/valer/Music/Down to Hell - Nemŕtva nevesta-xMOC0TNAfEY.mp3
 TagLib: Could not open file /home/valer/Music/Down_to_Hell/Down to Hell - Nemŕtva nevesta-xMOC0TNAfEY.mp3
+TagLib: ID3v2::Tag::read() - Duplicate ID3v2 tags found.
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - MDMS (Prod. Dame)-CiBFb2Udw84.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - MLMLTN ft. Nik Tendo (Prod. Homie Beatz)-UMUnY0wTd1U.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - NCHDZNM (Prod. Dame)-rH9fAur5FyU.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - NMSM (Prod. Peter Pann)-Fds05Wk2suA.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - NPRBLM ft. Yzomandias (Prod. Special Beatz)-LRxnOsQs8CM.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - PLEJ (Prod. Dame)-aF8ZjV_14pA.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - SLVDSLV (Prod. Smart)-N-lIcttLDTE.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - TLSPNG (Prod. Dokkeytino)-QmF-V0zWcBk.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - 100P (Prod. Smart)-mA5eFNVIeW8.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'DMS/MDMS/DMS - 100P (Prod. Smart)-mA5eFNVIeW8.opus' as it's not a positive integer

@@ -49,4 +49,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 picom  &
-exec i3
+nitrogen --restore &
+mpd &
+dwmblocks &
+exec dwm
+
