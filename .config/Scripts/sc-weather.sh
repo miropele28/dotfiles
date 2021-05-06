@@ -1,4 +1,5 @@
 #!/bin/sh
 
+weather=$(curl -s wttr.in/?format=%c+%t)
 
-echo $(curl wttr.in/?format=3)
+echo $weather

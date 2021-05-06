@@ -2,11 +2,11 @@
 
 layout=$(setxkbmap -query | grep layout | awk '{print $2}')
 
-if [ $layout = 'us' ]
+if [ $layout = 'sk' ]
 then
-	setxkbmap sk -variant qwerty
-	echo "⌨️ SK"
-else
 	setxkbmap us
 	echo "⌨️ US"
+else
+	setxkbmap sk -variant qwerty
+	echo "⌨️ SK"
 fi
